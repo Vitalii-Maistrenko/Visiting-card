@@ -1,7 +1,7 @@
 import "./services.scss";
 import { motion } from "framer-motion";
 import { useRef } from "react";
-
+import photo from '/public/cv.png';
 const variants = {
   initial: {
     x: -500,
@@ -63,7 +63,7 @@ const Services = () => {
         <motion.div
           className="box"
         >
-          <img src="/public/cv.png" alt="" onClick={handleLinkClick} />
+          <img src={photo} alt="" onClick={handleLinkClick} />
         </motion.div>
       </motion.div>
     </motion.div>
