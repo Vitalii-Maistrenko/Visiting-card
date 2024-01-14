@@ -2,12 +2,19 @@ import { useRef } from "react";
 import "./portfolio.scss";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 
+import photo1 from '/public/banner-phones.png';
+import photo2 from '/public/cripto.jpg';
+import photo3 from '/public/bike.jpg';
+import photo4 from '/public/2048.png';
+
+
+
 
 const items = [
   {
     id: 1,
     title: "Phone store",
-    img: "/public/banner-phones.png",
+    img: photo1,
     desc: "The project is a web application that allows users to browse and interact with a catalog of mobile phones, tablets, and accessories. Technologies used:",
     des: `
     ReactTS,
@@ -23,7 +30,7 @@ const items = [
   {
     id: 2,
     title: "Cryptocurrency Website Starter",
-    img: "/public/cripto.jpg",
+    img: photo2,
     desc: "Cryptocurrency Website Starter is a web application developed using React and Tailwind CSS technologies, designed to track and analyze information about cryptocurrency markets. This starter project provides the basic functionality to create your own website.",
     des: `
     React,
@@ -37,7 +44,7 @@ const items = [
   {
     id: 3,
     title: "My Bike.",
-    img: "/public/bike.jpg",
+    img: photo3,
     desc: "Created using only HTML, JavaScript, and SCSS. I decided to express my passion for bicycles and showcase it in this project.",
     url: "https://vitalii-maistrenko.github.io/layout_miami/",
     des: `
@@ -50,7 +57,7 @@ const items = [
   {
     id: 4,
     title: "Vanilla JS",
-    img: "/public/2048.png",
+    img: photo4,
     desc: "The 2048 game in JavaScript, using HTML and CSS. Players can interact with a 4x4 grid using arrow keys. The goal is to merge identical numbers, aiming to achieve the number 2048. The game automatically adds new numbers (2 or 4) after each move. Players earn points for merging numbers. The game concludes when the player reaches 2048 or when no more moves are possible. The Start button initiates the game or restarts it, changing to Restart after the first move.",
     des: `
     Js,
