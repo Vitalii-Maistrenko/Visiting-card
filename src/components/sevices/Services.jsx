@@ -2,6 +2,9 @@ import "./services.scss";
 import { motion } from "framer-motion";
 import { useRef } from "react";
 import photo from '/public/cv.png';
+import photo2 from '/people.webp';
+
+
 const variants = {
   initial: {
     x: -500,
@@ -41,12 +44,12 @@ const Services = () => {
         <p>
           I focus on helping your brand grow
           <br /> and move forward
-          <hr />
         </p>
+        <hr />
       </motion.div>
       <motion.div className="titleContainer" variants={variants}>
         <motion.div className="title">
-          <img src="/people.webp" alt="" />
+          <img src={photo2} alt="" />
           <h1>
             <motion.b whileHover={{ color: "orange" }}>Unique</motion.b> Ideas
           </h1>
