@@ -58,6 +58,15 @@
       z-index: -1;
     }
 
+    svg {
+      width: 550px;
+      height: 550px;
+      @include mobile {
+        width: 350px;
+        height: 350px;
+      }
+    }
+
     form {
       display: flex;
       flex-direction: column;
